@@ -31,3 +31,26 @@ git add .
 ```cmd
 git commit -m "first commit"
 ```
+
+tox command -
+```cmd
+tox
+```
+for rebuilding -
+```cmd
+tox -r 
+```
+pytest command
+```cmd
+pytest -v
+```
+
+setup commands -
+```cmd
+pip install -e . 
+```
+
+build your own package commands- 
+```cmd
+python setup.py sdist bdist_wheel
+```
