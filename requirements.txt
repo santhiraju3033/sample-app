@@ -3,8 +3,9 @@
 -e .
 #third party packages
 dvc
-dve[gdrive]
+dvc[gdrive]
 sklearn
 pandas
 pytest
 tox
+flake8
